@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+
+header{
+    margin: 23px 58px 0 1006px;
+}
+
+.link-header{
+    margin-right: 41px;
+    color: #5D5D7D;
+    cursor: pointer;
+}
+
+.box-image{
+
+  margin: 0 177px 123px 807px;
+        
+}
+
+img{
+    width: 456px;
+    height: 561px;
+    margin-top: -1325px;
+    
+    
+}
+
+.box-text{
+    margin: 381px 0 0 136px; 
+}
+
+p{
+    width: 540px;
+    margin-bottom: 20px ;
+    font-size: 26px;
+    color: #5D5D7D;
+    align-items: center;
+}
+
+h1{
+    font-size: 57px;
+    width: 368px;
+    margin-bottom: 10px;
+    color: #5D5D7D;
+    
+
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background: #9499EA;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.5s ease-in;
+    background: #cc7d7d;
+    color: black;
+}
+
+.banckground-color{
+    background: #e6e6ec;
+    width: 60%;
+    height: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    margin-left: 949px;
+
+}
+
+@media screen and (max-width:899px){
+
+
+h1{
+    
+    font-size: 35px;
+    margin-top: -380px;
+    height: 104px;
+    width: 235px;
+    margin-left: -6px;
+
+}
+
+p{
+    width: 352px;
+    margin-left: -65px; 
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+button{
+    margin-top: 55px;
+    width: 336px;
+    height: 95px;
+    margin-left: -65px;
+    font-size: 35px;
+}
+
+
+    img{
+    margin-left: -750px;
+    width: 271px;
+    height: 322px;
+    margin-top: 180px;
+
+    }
+
+    .banckground-color{
+        height: 100vh;
+        margin-top: 475px;
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    header{
+        display: none;
+    }
+    
+    
+
+    
+}
